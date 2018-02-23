@@ -3,8 +3,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.GameDisplayController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@GameDisplay.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.GameDisplayController">
    <children>
       <ImageView fitHeight="90.0" fitWidth="20.0" layoutX="24.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fitHeight="90.0" fitWidth="20.0" layoutX="551.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true" />
